@@ -1,9 +1,10 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
 colorama; sys_platform=='win32'
 h5py<3.0
 jsonschema
 keras==2.2.4
 numexpr
 numpy>=1.18,!=1.19.4
-tensorflow_gpu==1.13.1
+tensorflow
 tifffile
 tqdm>=4.41.0

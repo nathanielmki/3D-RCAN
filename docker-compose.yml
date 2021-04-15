@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  3drcan:
+    image: 3drcan
+    build:
+      context: .
+      dockerfile: ./Dockerfile
